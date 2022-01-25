@@ -1,0 +1,57 @@
+**Video**
+**Introduction to Power BI**
+
+1. Introduction to Power BI
+Hi, I'm Lis. I will be one of your instructors for this Introduction to Power BI course. We'll cover the basics of Power BI and have you making reports before you know it!
+
+2. What is Power BI?
+Power BI is a tool that lets you interactively explore data to gain insights. Power BI enables you to effectively report insights through easy-to-use customizable visualizations.
+
+1 https://docs.microsoft.com/en-us/power-bi/create-reports/sample-retail-analysis
+3. Data Visualization in Power BI
+Visually representing data lets people interpret and analyze data faster. For example, it's easier to find the most profitable year in a bar plot than a scrolling through a spreadsheet!
+
+4. Why Power BI?
+There are several data visualization tools, so why Power BI? According to Gartner, Power BI is the leading data visualization tool. Over 97% of Fortune 500 companies use Power BI. In total, Power BI has over 6 million customers. Are you convinced yet? Let's learn more!
+
+5. Power BI Components
+Power BI is made up of two components: desktop and service. Power BI Desktop is a data analysis and report creation tool available on your local computer. It includes powerful features, like the Query Editor, and it's free. In this course, we'll use Power BI Desktop. Power BI service is the cloud version of Power BI. Reports can be edited in Power BI service, but not to the full extent as desktop. Instead, the main purpose of Power BI service is to share and distribute reports. Most commonly, you will use Power BI Desktop to create a report and Power BI service to share that report.
+
+6. Power BI Pro
+This course will use the free version of Power BI. There is a paid version called Power BI Pro. The free version has most functionalities, however, Power BI Pro allows you to publish work on the Power BI cloud platform, including their mobile app. Power BI Pro also allows you to collaborate with other Power BI users. Even though we're using the free version, everything you learn in this course will be applicable to the paid version.
+
+7. Power BI Interface
+Let's quickly walk through the Power BI interface. The first time Power BI Desktop starts, it displays the Welcome screen. Select the close icon to close it.
+
+8. Power BI Interface - Three views
+Along the left side are icons for the three views: Report, Data, and Model. You can change views by selecting any of the icons.
+
+9. Power BI Interface - Report View
+Report view is the default view. In this view, you can create reports and visuals.
+
+10. Power BI Interface - Data View
+In the data view, you can see the data used in the data model associated with your report.
+
+11. Power BI Interface - Model View
+In the Relationship view, you can see and manage the relationships among tables in your data model.
+
+12. Power BI Interface - Canvas area
+Let's go back to the report view. The canvas area in the middle is where visualizations are created and arranged.
+
+13. Power BI Interface - Filters pane
+In the Filters pane you can filter data visualizations.
+
+14. Power BI Interface - Visualizations pane
+In the Visualizations pane you can add, change, or customize visualizations.
+
+15. Power BI Interface - Fields pane
+Finally, the Fields pane shows the available fields. You can drag these fields onto the canvas, the Filters pane, or the Visualizations pane to create or modify visualizations.
+
+16. Wide World Importers (WWI) dataset
+In this chapter, we'll be using data from a fictional company called Wide World Importers, a wholesale novelty goods importer and distributor operating from San Francisco.
+
+17. Wide World Importers (WWI) dataset structure
+More often than not a dataset is made up of more than one file. The same goes for this dataset, let's take a look. Power BI is designed to work with a common database structure called the snowflake schema. If you've never heard of the snowflake schema, dont' worry! All you need to know for now is that it uses fact and dimension tables. A fact table contains events or transactions. In our case, the FactSales file holds all the sales done at Wide World Importers. Fact tables have dimension tables that hold more information about each transaction. For example, the dimension table, DimCustomer, holds the contact information for each customer. There are four other dimension tables as you see listed here.
+
+18. Let's practice!
+Let's load these fact and dimension tables and see what we can make!
