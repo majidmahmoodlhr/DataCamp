@@ -1,0 +1,27 @@
+Your first visualization
+Time to start loading your own data!
+
+In this exercise, FactSale.csv has been loaded and there is already a bar chart with the quantity of items ever sold by Wide World Importers (WWI). This would be more meaningful if we segmented the graph into years. Let's load another data file that contains that informations.
+
+Note that you can use the undo-button in the top left corner to undo any edits you made.
+
+1-  A)Open 1_1_Your_First_Viz.pbix from the Exercises folder on the desktop.
+    B)Make sure to close any reports from earlier, as having too many reports open will decrease the speed of the machine.
+2-Using the Get Data button, select Text/CSV from the list and load DimDate.csv from Datasets/WWI. Make sure to use the file in the WWI folder.
+3-In the Model view, create a relationship betweenFactSale's Invoice Date Key and DimDate's Date.
+4-  A)In the Report view, select the existing bar chart and then select Calendar Year from DimDate in the Fields pane.
+    B)Make sure to use Calendar Year instead of Calendar Year Label. You can expand the Fields pane by dragging its left-hand border.
+5-In the Visualizations pane, drag Calendar Year to Axis rather than Value.
+6-Based on your resulting visualization, which statement is true?
+    
+>Quantity of items sold per year has decreased every year.
+
+>Quantity of items sold per year has remained about the same.
+
+>Quantity of items sold per year has only increased from 2013 to 2015.
+
+>Quantity of items sold per year has been increasing every year.
+
+########################################################################
+Ans:Quantity of items sold per year has only increased from 2013 to 2015.
+########################################################################
