@@ -1,0 +1,19 @@
+Loading existing reports
+Let's get you started! We provide you with your very own virtual machine running Power BI. It may take a few minutes to load, but it only needs to be set up once.
+
+Before you start loading data and creating visualizations, it's important you know how to load existing reports. If at any point in the course you lose progress or get stuck, you can load the corresponding report to re-initialize. In this exercise, we'll take a look at a report you will be able to create by the end of this chapter.
+
+All the reports used in this course are also available for download at the bottom right of the course page if you want to open them locally.
+
+
+Instruciton:
+
+1/5-Under File menu in Power BI, click on “Browse Reports” and open the report called 1_10_Making_Maps.pbix, from the Exercises folder on the desktop. It might take a while to load.
+2/5-A new report has opened so you can now safely close the Empty Report file. Closing previous files is good practice to ensure Power BI runs smoothly.
+3/5-You can enlarge the Power BI interface by clicking on the full-screen button in the bottom right corner or by zooming out.
+4/5-You can also make the canvas area bigger by expanding and collapsing the Filters, Visualizations, and Fields panes by selecting the arrows at the tops of the panes.
+5/5-What was the total number of chiller items sold in 2016?
+
+##########
+Ans:14352
+##########
